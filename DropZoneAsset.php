@@ -1,6 +1,6 @@
 <?php
 
-namespace microinginer\dropzone;
+namespace devgroup\dropzone;
 
 use yii\web\AssetBundle;
 

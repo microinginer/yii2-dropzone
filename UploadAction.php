@@ -1,6 +1,6 @@
 <?php
 
-namespace microinginer\dropzone;
+namespace devgroup\dropzone;
 
 use Yii;
 use yii\base\Action;
