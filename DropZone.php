@@ -1,6 +1,6 @@
 <?php
 
-namespace devgroup\dropzone;
+namespace microinginer\dropzone;
 
 use Yii;
 use yii\base\Widget;
