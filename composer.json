@@ -1,5 +1,5 @@
 {
-    "name": "devgroup/yii2-dropzone",
+    "name": "microinginer/yii2-dropzone",
     "description": "Yii2 Dropzone widget",
     "type": "yii2-extension",
     "keywords": ["yii2", "dropzone", "upload"],
@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "devgroup\\dropzone\\": ""
+            "microinginer\\dropzone\\": ""
         }
     }
 }
