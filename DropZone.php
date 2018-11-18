@@ -8,6 +8,7 @@ use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\helpers\Url;
+use yii\web\View;
 
 class DropZone extends Widget
 {
@@ -38,7 +39,8 @@ class DropZone extends Widget
     private function registerAssets()
     {
         DropZoneAsset::register($this->getView());
-        $this->getView()->registerJs('Dropzone.autoDiscover = false;');
+        $this->getView()->registerJs('Dropzone.autoDiscover = false;', View::POS_END);
+        $this->getView()->registerCss('.dropzone .dz-message {font-size: 19px} .dropzone {border: 2px dashed rgba(0,0,0,0.3);}');
     }
 
     protected function addFiles($files = [])
